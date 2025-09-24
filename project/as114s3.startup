@@ -1,4 +1,4 @@
 ip addr add 1.114.1.4/24 broadcast 1.114.1.255 dev eth0
 ip route add default via 1.114.1.1
-systemctl start dhcpd
+systemctl start isc-dhcp-server
 
