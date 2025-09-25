@@ -26,10 +26,10 @@ eth2r3      IN  A   1.114.0.3
 eth3r3      IN  A   1.114.0.9
 dummy0r3    IN  A   1.114.2.3
 
-eth0.r4      IN  A   1.114.100.1
-eth1.r4      IN  A   1.114.0.5
-eth2.r4      IN  A   1.114.0.6
-dummy0.r4    IN  A   1.114.2.4
+eth0r4      IN  A   1.114.100.1
+eth1r4      IN  A   1.114.0.5
+eth2r4      IN  A   1.114.0.6
+dummy0r4    IN  A   1.114.2.4
 
 ; --- Servers ---
 ns           IN  A   1.114.1.2
