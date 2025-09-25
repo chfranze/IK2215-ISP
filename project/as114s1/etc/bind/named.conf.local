@@ -3,7 +3,8 @@ zone "isp114.lab" {
     file "/etc/bind/db.isp114.lab";
 };
 
-zone "1.114.in-addr.arpa" {
+zone "114.1.in-addr.arpa" {
     type master;
-    file "/etc/bind/db.1.114";
+    file "/etc/bind/db.114.1";
 };
+

@@ -2,7 +2,7 @@ options {
     directory "/var/cache/bind";
 
     forwarders {
-        2.0.1.2;   // parent .lab DNS
+        2.0.1.2;
     };
 
     allow-query { any; };

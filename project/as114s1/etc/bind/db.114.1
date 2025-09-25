@@ -1,0 +1,45 @@
+$TTL 604800
+@   IN  SOA ns.isp114.lab. admin.isp114.lab. (
+        2025092501 ; Serial
+        604800     ; Refresh
+        86400      ; Retry
+        2419200    ; Expire
+        604800 )   ; Negative Cache TTL
+;
+@       IN  NS  ns.isp114.lab.
+
+; r1
+5.0.0.1.in-addr.arpa.      IN PTR eth0r1.isp114.lab.
+0.0.114.1.in-addr.arpa.    IN PTR eth1r1.isp114.lab.
+2.0.114.1.in-addr.arpa.    IN PTR eth2r1.isp114.lab.
+4.0.114.1.in-addr.arpa.    IN PTR eth3r1.isp114.lab.
+1.2.114.1.in-addr.arpa.    IN PTR dummy0r1.isp114.lab.
+
+; r2
+1.0.21.2.in-addr.arpa.     IN PTR eth0r2.isp114.lab.
+1.0.114.1.in-addr.arpa.    IN PTR eth1r2.isp114.lab.
+8.0.114.1.in-addr.arpa.    IN PTR eth2r2.isp114.lab.
+2.2.114.1.in-addr.arpa.    IN PTR dummy0r2.isp114.lab.
+
+; r3
+1.1.114.1.in-addr.arpa.    IN PTR eth0r3.isp114.lab.
+7.0.114.1.in-addr.arpa.    IN PTR eth1r3.isp114.lab.
+3.0.114.1.in-addr.arpa.    IN PTR eth2r3.isp114.lab.
+9.0.114.1.in-addr.arpa.    IN PTR eth3r3.isp114.lab.
+3.2.114.1.in-addr.arpa.    IN PTR dummy0r3.isp114.lab.
+
+; r4
+1.100.114.1.in-addr.arpa.  IN PTR eth0r4.isp114.lab.
+5.0.114.1.in-addr.arpa.    IN PTR eth1r4.isp114.lab.
+6.0.114.1.in-addr.arpa.    IN PTR eth2r4.isp114.lab.
+4.2.114.1.in-addr.arpa.    IN PTR dummy0r4.isp114.lab.
+
+; Servers
+2.1.114.1.in-addr.arpa.    IN PTR ns.isp114.lab.
+3.1.114.1.in-addr.arpa.    IN PTR www.isp114.lab.
+4.1.114.1.in-addr.arpa.    IN PTR dhcpd.isp114.lab.
+
+; Clients
+11.100.114.1.in-addr.arpa. IN PTR c1.isp114.lab.
+12.100.114.1.in-addr.arpa. IN PTR c2.isp114.lab.
+
