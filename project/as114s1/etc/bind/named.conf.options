@@ -1,0 +1,10 @@
+options {
+    directory "/var/cache/bind";
+
+    forwarders {
+        2.0.1.2;   // parent .lab DNS
+    };
+
+    allow-query { any; };
+    recursion yes;
+};

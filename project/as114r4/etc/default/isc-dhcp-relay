@@ -10,7 +10,7 @@
 SERVERS="1.114.1.4"
 
 # On what interfaces should the DHCP relay (dhrelay) serve DHCP requests?
-INTERFACES="eth0"
+INTERFACES="eth0 eth1 eth2"
 
 # Additional options that are passed to the DHCP relay daemon?
 OPTIONS=""
