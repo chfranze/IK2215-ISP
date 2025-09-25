@@ -15,6 +15,7 @@ eth2.r1      IN  A   1.114.0.2
 eth3.r1      IN  A   1.114.0.4
 dummy0.r1    IN  A   1.114.2.1
 
+eth0.r2      IN  A   2.21.0.1
 eth1.r2      IN  A   1.114.0.1
 eth2.r2      IN  A   1.114.0.8
 dummy0.r2    IN  A   1.114.2.2

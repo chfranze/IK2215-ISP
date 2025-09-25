@@ -1,0 +1,19 @@
+$TTL 604800
+@   IN  SOA ns.isp114.lab. admin.isp114.lab. (
+        2025092501 ; Serial
+        604800
+        86400
+        2419200
+        604800 )
+;
+@       IN  NS  ns.isp114.lab.
+0       IN  PTR eth1.r1.isp114.lab.
+1       IN  PTR eth1.r2.isp114.lab.
+2       IN  PTR eth2.r1.isp114.lab.
+3       IN  PTR eth2.r3.isp114.lab.
+4       IN  PTR eth3.r1.isp114.lab.
+5       IN  PTR eth1.r4.isp114.lab.
+6       IN  PTR eth2.r4.isp114.lab.
+7       IN  PTR eth1.r3.isp114.lab.
+8       IN  PTR eth2.r2.isp114.lab.
+9       IN  PTR eth3.r3.isp114.lab.
