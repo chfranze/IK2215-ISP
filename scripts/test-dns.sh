@@ -14,15 +14,15 @@ entries=(
   "1.114.0.3 eth2r3.isp114.lab"
   "1.114.0.9 eth3r3.isp114.lab"
   "1.114.2.3 dummy0r3.isp114.lab"
-  "1.114.100.1 eth0r4.isp114.lab"
+  "1.114.10.1 eth0r4.isp114.lab"
   "1.114.0.5 eth1r4.isp114.lab"
   "1.114.0.6 eth2r4.isp114.lab"
   "1.114.2.4 dummy0r4.isp114.lab"
   "1.114.1.2 ns.isp114.lab"
   "1.114.1.3 www.isp114.lab"
   "1.114.1.4 dhcpd.isp114.lab"
-  "1.114.100.11 c1.isp114.lab"
-  "1.114.100.12 c2.isp114.lab"
+  "1.114.10.11 c1.isp114.lab"
+  "1.114.10.12 c2.isp114.lab"
 )
 
 echo "=== DNS Test Results ==="
