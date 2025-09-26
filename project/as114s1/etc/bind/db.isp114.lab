@@ -26,7 +26,7 @@ eth2r3      IN  A   1.114.0.3
 eth3r3      IN  A   1.114.0.9
 dummy0r3    IN  A   1.114.2.3
 
-eth0r4      IN  A   1.114.100.1
+eth0r4      IN  A   1.114.10.1
 eth1r4      IN  A   1.114.0.5
 eth2r4      IN  A   1.114.0.6
 dummy0r4    IN  A   1.114.2.4
@@ -37,5 +37,5 @@ www          IN  A   1.114.1.3
 dhcpd        IN  A   1.114.1.4
 
 ; --- Clients ---
-c1           IN  A   1.114.100.11
-c2           IN  A   1.114.100.12
+c1           IN  A   1.114.10.11
+c2           IN  A   1.114.10.12
