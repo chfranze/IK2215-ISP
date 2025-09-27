@@ -1,1 +1,2 @@
+systemctl start rsyslog
 /sbin/dhclient eth0
